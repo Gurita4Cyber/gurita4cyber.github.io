@@ -1,0 +1,5 @@
+.base-content{margin: 10px;}
+.list-portofolio > ul {padding-bottom: 40px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: left; -ms-flex-pack: left; justify-content: left; }
+.box-list-porto > li {width: calc(100% - 10px); float: left; margin: 5px; flex-basis: calc(100% - 10px); padding-bottom: 10px; }
+.desc-portofolio h4 {font-size: 14px; font-weight: normal; margin-bottom: 10px; }
+.desc-portofolio h2 {font-weight: bold; font-size: 32px; line-height: 48px; margin-bottom: 7px; }

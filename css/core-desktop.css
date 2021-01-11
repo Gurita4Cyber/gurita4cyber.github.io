@@ -1,0 +1,6 @@
+header{position: -webkit-sticky; position: sticky; top: 0; left: 0; width: 350px; float: left; top:0; left:0; width:350px; z-index:2;min-height: 100vh;}
+.column{margin-left:350px;}
+.column-big{width:100%; flex-basis:100%;}
+
+.big-title > h4{font-size: 25px;margin-left: 32px;}
+.big-title > .icon-title {font-size: 25px; }

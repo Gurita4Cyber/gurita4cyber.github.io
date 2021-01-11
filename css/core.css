@@ -1,0 +1,18 @@
+a, .btn {transition: all 0.4s; -moz-transition: all 0.4s; -webkit-transition: all 0.4s; -o-transition: all 0.4s; }
+.footer-all{position:relative; z-index:4;color: #fff; background-color: #151623; padding: 5px 10px; position: relative;font-size: 10px;}
+.floating-rightbottom{position:fixed; bottom:60px; right:10px; z-index:95; font-size:20px;}
+.floating-rightbottom > *{background-color:rgb(238 42 68); width:36px; height:36px; margin:10px 0; color:#FFF;
+transition:all 0.4s; -moz-transition:all 0.4s; -webkit-transition:all 0.4s; -o-transition:all 0.4s;}
+#btt > div{width:100%; height:100%;}
+#btt {cursor: pointer; }
+
+.mod-title.big-title {margin-bottom: 20px; }
+.mod-title {position: relative; }
+.mod-title > h4{font-weight: bold;text-transform: capitalize;margin-left: 25px;}
+.mod-title > .icon-title{position: absolute; top: 0;}
+.mod-title > .icon-title > i {color: #37e391; font-size: 21px;}
+.skill {margin: 20px; } 
+.skill > span{width: 100%;border-bottom: 1px solid #dfe1e5; padding-bottom: 20px;}
+
+
+@keyframes progress {0% {width: 0%; } 100% {width: 100%; } }}
