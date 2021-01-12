@@ -1,8 +1,33 @@
 
-{% include inc/base.html %}
+<div w3-include-html="inc/base.html"></div>
+<div w3-include-html="inc/meta.html"></div>
+<script type="text/javascript">
+  function w3IncludeHTML() {
+  var z, i, a, file, xhttp;
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    if (z[i].getAttribute("w3-include-html")) {
+      a = z[i].cloneNode(false);
+      file = z[i].getAttribute("w3-include-html");
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          a.removeAttribute("w3-include-html");
+          a.innerHTML = xhttp.responseText;
 
-{% include inc/meta.html %}
-{% include inc/header.html %}
+          z[i].parentNode.replaceChild(a, z[i]);
+          w3IncludeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      return;
+    }
+  }
+}
+
+</script>
+<div w3-include-html="inc/header.html"></div>
 
 
 <div class="site-container">
@@ -12,9 +37,9 @@
   <div class="column content_center">
     <ul>
       <li class="column-big column-left">
-        {% include module/latest-project.html %}
-        {% include module/big-portofolio.html %}
-        {% include module/small-portofolio.html %}
+        <div w3-include-html="module/latest-project.html"></div>
+        <div w3-include-html="module/big-portofolio.html"></div>
+        <div w3-include-html="module/small-portofolio.html"></div>
 
       </li>
     </ul>
@@ -23,4 +48,10 @@
 
 </div>
 
-{% include inc/footer.html %}
+
+
+<script>
+w3IncludeHTML();
+</script>
+
+<div w3-include-html="inc/footer.html"></div>
