@@ -1,0 +1,3 @@
+<!DOCTYPE html>
+<html itemscope="itemscope" lang="id" itemtype="http://schema.org/WebPage">
+<base href="/cv/" />

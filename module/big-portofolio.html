@@ -1,0 +1,28 @@
+<section class="base-content">
+        <div class="mod-title big-title">
+			<div class="icon-title"><i class="fas fa-clipboard-list"></i></div>
+			<h4>MY PORTFOLIO</h4>
+		</div>
+		<ul>
+			<li class="image-portofolio content_center">
+				<span>
+					<div class="frame-img flex_ori">
+					    <img alt="Logo" data-original="img/sample/suara-merdeka.jpg">
+					</div>
+				</span>
+			</li>
+			<li class="desc-portofolio content_center">
+				<span>
+						<h2>
+							SUARAMERDEKA
+						</h2>
+						<h4>
+							Situs berita regional jawa tengah terpercaya, berita hari ini indonesia, bola, sport, otomotif hingga entertainment.
+						</h4>
+						<a target="_blank" class="btn-visit" rel="noreferrer" href="">VISIT SITE</a> 
+				</span>
+			</li>
+		</ul>
+</section>
+
+
