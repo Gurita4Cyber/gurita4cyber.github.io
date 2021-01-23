@@ -3,3 +3,5 @@
 .box-list-porto > li {width: calc(100% - 10px); float: left; margin: 5px; flex-basis: calc(100% - 10px); padding-bottom: 10px; }
 .desc-portofolio h4 {font-size: 14px; font-weight: normal; margin-bottom: 10px; }
 .desc-portofolio h2 {font-weight: bold; font-size: 32px; line-height: 48px; margin-bottom: 7px; }
+.box-list-porto > div > li{margin: 10px 0;}
+.info > span {width: 100%; padding-left: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
