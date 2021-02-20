@@ -1,6 +1,6 @@
 .sosmed-list > .icon-name > span > a:hover{color: #37e391;}
 a:hover{color: #37e391;}
-.desc-portofolio a:hover{color: #fff; background-color: #37e391;} 
+.desc-portofolio a:hover,.image-portofolio ul > li .btn-visit:hover{color: #fff; background-color: #37e391;} 
 .download-pdf > a:hover {background: #37e391; color: #fff; }
 .box-list-porto > li {width: calc(50% - 10px); float: left; margin: 5px; flex-basis: calc(50% - 10px); padding-bottom: 5px; }
 .box-list-porto {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: left; -ms-flex-pack: left; justify-content: left; }
