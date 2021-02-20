@@ -7,3 +7,4 @@
 .info > span {width: 100%; padding-left: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .download-pdf > a {display: block; margin: 0 50px; }
 .download-pdf {position: fixed; z-index: 99; bottom: 10px; width: 100%; left: 0; margin: 0 auto; right: 0; }
+.image-portofolio ul > li {width: calc(100% - 20px); float: left; margin: 20px 10px 0px; }

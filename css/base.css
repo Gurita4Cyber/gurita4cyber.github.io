@@ -147,3 +147,5 @@ section p {line-height: 25px; margin: 10px 0; }
 
 .iconsvg {width: 18px; height: 18px; } 
 .icon-pdf-base {position: absolute; left: 10px; }
+.image-portofolio h2 {text-align: center; } 
+.image-portofolio ul > li .btn-visit {width: 100%; display: block; text-align: center; }
