@@ -141,7 +141,7 @@ section p {line-height: 25px; margin: 10px 0; }
 
 .btn-visit{display: inline-block; padding: 9px 18px; background-color: #DB4437; color: #FFF; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;}
 .box-list-porto > li{border-bottom: 1px dashed #dfe1e5}
-.download-pdf > a { position: relative;} 
+.download-pdf > a { position: relative;box-shadow: 0 1px 6px 0 rgb(32 33 36 / 61%);} 
 .download-pdf > a > h5{padding-left: 10px; border-left: 1px solid rgb(255 255 255 / 15%); margin-left: 15px;}
 .list-portofolio > ul{border-bottom: 1px dashed #dfe1e5;}
 
