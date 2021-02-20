@@ -5,3 +5,5 @@
 .desc-portofolio h2 {font-weight: bold; font-size: 32px; line-height: 48px; margin-bottom: 7px; }
 .box-list-porto > div > li{margin: 10px 0;}
 .info > span {width: 100%; padding-left: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.download-pdf > a {display: block; margin: 0 50px; }
+.download-pdf {position: fixed; z-index: 99; bottom: 0; width: 100%; left: 0; margin: 0 auto; right: 0; }
