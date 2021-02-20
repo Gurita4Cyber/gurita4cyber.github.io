@@ -1,5 +1,5 @@
 a, .btn {transition: all 0.4s; -moz-transition: all 0.4s; -webkit-transition: all 0.4s; -o-transition: all 0.4s; }
-.footer-all{position:relative; z-index:4;color: #fff; background-color: #151623; padding: 5px 10px; position: relative;font-size: 10px;}
+.footer-all{position:relative; z-index:1;color: #fff; background-color: #151623; padding: 5px 10px; position: relative;font-size: 10px;}
 .floating-rightbottom{position:fixed; bottom:60px; right:10px; z-index:95; font-size:20px;}
 .floating-rightbottom > *{background-color:rgb(238 42 68); width:36px; height:36px; margin:10px 0; color:#FFF;
 transition:all 0.4s; -moz-transition:all 0.4s; -webkit-transition:all 0.4s; -o-transition:all 0.4s;}
