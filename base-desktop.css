@@ -16,4 +16,4 @@ a:hover{color: #37e391;}
 .desc-portofolio h4{font-size: 20px;font-weight: normal; margin-bottom: 10px;line-height: 30px;}
 .end-skill {padding-bottom: 20px; }
 .image-portofolio ul > li {width: calc(33.33% - 20px); float: left; margin: 20px 10px 0px; }
-.footer-all{z-index:2 !important;}
+.footer-all{z-index: 4 !important;}
